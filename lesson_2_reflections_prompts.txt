@@ -6,4 +6,23 @@ How is the staging area different from the working directory and the repository?
 
 		The staging area make up the container to prepare for snap shoot image on commit.
 		
+How can you use the staging area to make sure you have one commit per logical change?
+
+		By adding only  files that has logical changes to stage area befoe commit.
 		
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+			New idea, save working demo when improving master branche. I can return to any branch and even merge them after the new 
+			changes will work as needed.
+
+How do the diagrams help you visualize the branch structure?
+
+				It can show unreachable commits.
+				
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	The commits inserts in line in time order.
+	
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+		Git can reduce the work needed. But it can't decide which change to put in final code in case where change inline.
